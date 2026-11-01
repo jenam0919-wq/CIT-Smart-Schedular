@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="100%" height="100%" fill="none" role="img" aria-label="CIT Smart Scheduler Favicon">
+  <defs>
+    <linearGradient id="fav-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101B3C" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="fav-primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="40%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="fav-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="32" height="32" rx="7.5" fill="url(#fav-bg)" />
+  <rect width="30.5" height="30.5" x="0.75" y="0.75" rx="6.75" stroke="rgba(255,255,255,0.2)" stroke-width="0.8" />
+
+  <!-- Graduation Cap Apex -->
+  <polygon points="16,4 27,9 16,14 5,9" fill="url(#fav-primary)" />
+  <polyline points="5,9 16,14 27,9" fill="none" stroke="#67E8F9" stroke-width="0.75" />
+  
+  <!-- Tassel -->
+  <path d="M 16,9 Q 23,9.5 24.5,12.5 L 24.5,15.5" fill="none" stroke="#38BDF8" stroke-width="0.9" stroke-linecap="round" />
+
+  <!-- Open Book & Schedule Base -->
+  <path d="M 15.5,16 Q 10,15 6,17 L 6,24 Q 10,22 15.5,23.5 Z" fill="#F8FAFC" />
+  <path d="M 16.5,16 Q 22,15 26,17 L 26,24 Q 22,22 16.5,23.5 Z" fill="#F8FAFC" />
+
+  <!-- Schedule Slots inside pages -->
+  <rect x="8" y="18" width="2.5" height="1.6" rx="0.4" fill="#2563EB" />
+  <rect x="11.5" y="18" width="2.5" height="1.6" rx="0.4" fill="#06B6D4" />
+  <rect x="8" y="20.5" width="2.5" height="1.6" rx="0.4" fill="#64748B" />
+  <rect x="11.5" y="20.5" width="2.5" height="1.6" rx="0.4" fill="#2563EB" />
+
+  <rect x="18" y="18" width="2.5" height="1.6" rx="0.4" fill="#7C3AED" />
+  <rect x="21.5" y="18" width="2.5" height="1.6" rx="0.4" fill="#2563EB" />
+  <rect x="18" y="20.5" width="2.5" height="1.6" rx="0.4" fill="#06B6D4" />
+  <rect x="21.5" y="20.5" width="2.5" height="1.6" rx="0.4" fill="#64748B" />
+
+  <!-- Tech Horizon Arc & Optimization Spark -->
+  <path d="M 9,26.5 Q 16,28.5 23,26.5" fill="none" stroke="url(#fav-cyan)" stroke-width="1.2" stroke-linecap="round" />
+  <circle cx="16" cy="27.5" r="1" fill="#67E8F9" />
+</svg>
+

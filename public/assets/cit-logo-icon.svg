@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%" fill="none" role="img" aria-label="CIT Smart Scheduler Icon">
+  <defs>
+    <!-- Brand Gradients -->
+    <linearGradient id="cit-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101B3C" />
+      <stop offset="50%" stop-color="#14264D" />
+      <stop offset="100%" stop-color="#0B1329" />
+    </linearGradient>
+
+    <linearGradient id="cit-primary-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="30%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <linearGradient id="cit-cyan-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <linearGradient id="cit-book-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#CBD5E1" stop-opacity="0.85" />
+    </linearGradient>
+
+    <linearGradient id="cit-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow Filter -->
+    <filter id="cit-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+
+    <filter id="cit-glow-filter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Squircle Glass Container -->
+  <rect width="64" height="64" rx="16" fill="url(#cit-bg-grad)" />
+  <rect width="62" height="62" x="1" y="1" rx="15" fill="none" stroke="rgba(255, 255, 255, 0.16)" stroke-width="1.2" />
+
+  <!-- Subtle Top Light Reflection -->
+  <path d="M 12 2 C 24 1.5, 40 1.5, 52 2 C 58 2, 62 6, 62 12 C 48 10, 16 10, 2 12 C 2 6, 6 2, 12 2 Z" fill="white" fill-opacity="0.08" />
+
+  <!-- ================= LOGO EMBLEM ================= -->
+  <g filter="url(#cit-shadow)">
+
+    <!-- 1. GRADUATION CAP (MORTARBOARD) -->
+    <!-- Cap Diamond Apex -->
+    <polygon points="32,8 53,17.5 32,27 11,17.5" fill="url(#cit-primary-grad)" />
+    
+    <!-- Top Highlights & Facet Edge -->
+    <polygon points="32,8 53,17.5 32,19 11,17.5" fill="white" fill-opacity="0.18" />
+    <polyline points="11,17.5 32,27 53,17.5" fill="none" stroke="#67E8F9" stroke-width="0.75" stroke-opacity="0.9" />
+
+    <!-- Cap Skullcap Rim (Curved undercap) -->
+    <path d="M 22,23 Q 32,28.5 42,23 L 43,26.5 Q 32,32 21,26.5 Z" fill="#1E293B" fill-opacity="0.9" />
+
+    <!-- Cap Tassel (Hanging from center button to right) -->
+    <circle cx="32" cy="17.5" r="1.5" fill="#38BDF8" />
+    <path d="M 32,17.5 Q 46,18 49,24" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-linecap="round" />
+    <circle cx="49" cy="24.5" r="1.2" fill="#67E8F9" />
+    <path d="M 49,25.5 L 49.5,30.5" stroke="#67E8F9" stroke-width="1.4" stroke-linecap="round" />
+
+    <!-- 2. OPEN BOOK & CALENDAR SCHEDULE FOUNDATION -->
+    <!-- Left Page (Curved Knowledge Wing) -->
+    <path d="M 31,31 Q 20,29 11,32.5 L 11,46 Q 21,42.5 31,45 Z" fill="url(#cit-book-grad)" />
+    <!-- Right Page (Curved Knowledge Wing) -->
+    <path d="M 33,31 Q 44,29 53,32.5 L 53,46 Q 43,42.5 33,45 Z" fill="url(#cit-book-grad)" />
+
+    <!-- Book Spine / Central Pivot -->
+    <path d="M 31,30.5 L 33,30.5 L 33,45.5 L 31,45.5 Z" fill="#94A3B8" />
+
+    <!-- 3. CALENDAR SCHEDULING MATRIX (Integrated into Pages) -->
+    <!-- Left Page Time Slots (Morning / Theory sessions) -->
+    <rect x="15" y="34.5" width="5.5" height="3" rx="0.8" fill="#2563EB" fill-opacity="0.75" />
+    <rect x="22.5" y="34.5" width="5.5" height="3" rx="0.8" fill="#06B6D4" fill-opacity="0.85" />
+    <rect x="15" y="39.5" width="5.5" height="3" rx="0.8" fill="#475569" fill-opacity="0.5" />
+    <rect x="22.5" y="39.5" width="5.5" height="3" rx="0.8" fill="#2563EB" fill-opacity="0.75" />
+
+    <!-- Right Page Time Slots (Afternoon / Lab sessions) -->
+    <rect x="36" y="34.5" width="5.5" height="3" rx="0.8" fill="#7C3AED" fill-opacity="0.8" />
+    <rect x="43.5" y="34.5" width="5.5" height="3" rx="0.8" fill="#2563EB" fill-opacity="0.75" />
+    <rect x="36" y="39.5" width="5.5" height="3" rx="0.8" fill="#06B6D4" fill-opacity="0.9" />
+    <rect x="43.5" y="39.5" width="5.5" height="3" rx="0.8" fill="#475569" fill-opacity="0.5" />
+
+    <!-- 4. TECHNOLOGY ELEMENTS: Connecting Nodes & Intelligent Sync -->
+    <!-- Central Tech Optimization Pulse Node -->
+    <line x1="28" y1="36" x2="36" y2="36" stroke="#38BDF8" stroke-width="0.8" stroke-dasharray="0.8 0.8" />
+    <line x1="28" y1="41" x2="36" y2="41" stroke="#38BDF8" stroke-width="0.8" stroke-dasharray="0.8 0.8" />
+    
+    <!-- Base Foundation Pedestal / Horizon Arc -->
+    <path d="M 16,49.5 Q 32,53.5 48,49.5" fill="none" stroke="url(#cit-cyan-grad)" stroke-width="1.6" stroke-linecap="round" />
+    <circle cx="32" cy="51.5" r="1.5" fill="#67E8F9" filter="url(#cit-glow-filter)" />
+    <circle cx="16" cy="49.5" r="1" fill="#38BDF8" />
+    <circle cx="48" cy="49.5" r="1" fill="#38BDF8" />
+  </g>
+</svg>
+

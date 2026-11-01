@@ -1,0 +1,6 @@
+{
+  "name": "CIT Smart Scheduler",
+  "description": "Smarter Scheduling. Zero Conflicts. Better Campus Management. Enterprise academic timetabling, exam scheduling, and venue booking for Chilika Institute of Technology.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="100%" height="100%" fill="none" role="img" aria-label="CIT Smart Scheduler White Logo">
+  <defs>
+    <!-- Brand Gradients -->
+    <linearGradient id="cit-w-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="cit-w-primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="40%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+
+    <linearGradient id="cit-w-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <filter id="cit-w-glow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- ================= ICON EMBLEM ================= -->
+  <g transform="translate(4, 4)">
+    <rect width="56" height="56" rx="14" fill="url(#cit-w-bg)" />
+    <rect width="54.4" height="54.4" x="0.8" y="0.8" rx="13.2" stroke="rgba(255, 255, 255, 0.28)" stroke-width="1.2" />
+
+    <!-- Mortarboard Diamond -->
+    <polygon points="28,7 46,15.5 28,24 10,15.5" fill="url(#cit-w-primary)" />
+    <polyline points="10,15.5 28,24 46,15.5" fill="none" stroke="#E0F2FE" stroke-width="0.8" />
+
+    <!-- Skullcap Rim -->
+    <path d="M 19,20.5 Q 28,25 37,20.5 L 38,23.5 Q 28,28 18,23.5 Z" fill="#0F172A" />
+
+    <!-- Tassel -->
+    <circle cx="28" cy="15.5" r="1.2" fill="#67E8F9" />
+    <path d="M 28,15.5 Q 40,16 43,21 L 43.5,26.5" fill="none" stroke="#67E8F9" stroke-width="1.1" stroke-linecap="round" />
+    <circle cx="43.5" cy="26.5" r="1" fill="#FFFFFF" />
+
+    <!-- Open Book Pages (Translucent White) -->
+    <path d="M 27,27.5 Q 17,25.5 9,28.5 L 9,40 Q 18,37 27,39.5 Z" fill="#FFFFFF" fill-opacity="0.95" />
+    <path d="M 29,27.5 Q 39,25.5 47,28.5 L 47,40 Q 38,37 29,39.5 Z" fill="#FFFFFF" fill-opacity="0.95" />
+
+    <!-- Schedule Matrix -->
+    <rect x="12.5" y="30" width="4.8" height="2.6" rx="0.6" fill="#3B82F6" />
+    <rect x="19" y="30" width="4.8" height="2.6" rx="0.6" fill="#06B6D4" />
+    <rect x="12.5" y="34.5" width="4.8" height="2.6" rx="0.6" fill="#94A3B8" />
+    <rect x="19" y="34.5" width="4.8" height="2.6" rx="0.6" fill="#3B82F6" />
+
+    <rect x="32" y="30" width="4.8" height="2.6" rx="0.6" fill="#8B5CF6" />
+    <rect x="38.5" y="30" width="4.8" height="2.6" rx="0.6" fill="#3B82F6" />
+    <rect x="32" y="34.5" width="4.8" height="2.6" rx="0.6" fill="#06B6D4" />
+    <rect x="38.5" y="34.5" width="4.8" height="2.6" rx="0.6" fill="#94A3B8" />
+
+    <!-- Tech Nodes & Arc -->
+    <path d="M 13.5,43 Q 28,46.5 42.5,43" fill="none" stroke="url(#cit-w-cyan)" stroke-width="1.4" stroke-linecap="round" />
+    <circle cx="28" cy="45" r="1.3" fill="#67E8F9" filter="url(#cit-w-glow)" />
+  </g>
+
+  <!-- ================= TYPOGRAPHY & BRANDING (WHITE/LIGHT ACCENTS) ================= -->
+  <g transform="translate(74, 11)">
+    <!-- Brand Title: CIT Smart Scheduler -->
+    <text x="0" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', 'Segoe UI', sans-serif" font-weight="900" font-size="20" letter-spacing="-0.03em" fill="#FFFFFF">
+      <tspan fill="#38BDF8">CIT</tspan>
+      <tspan fill="#FFFFFF"> Smart Scheduler</tspan>
+    </text>
+
+    <!-- Subtitle: Chilika Institute of Technology -->
+    <text x="0" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', 'Segoe UI', sans-serif" font-weight="600" font-size="10.5" letter-spacing="0.03em" fill="#94A3B8">
+      CHILIKA INSTITUTE OF TECHNOLOGY
+    </text>
+
+    <!-- Tagline: Plan • Manage • Optimize -->
+    <text x="0" y="47" font-family="-apple-system, BlinkMacSystemFont, 'JetBrains Mono', 'Segoe UI', monospace" font-weight="600" font-size="9" letter-spacing="0.08em" fill="#67E8F9">
+      PLAN • MANAGE • OPTIMIZE
+    </text>
+
+    <!-- CP-SAT Engine Pill Badge -->
+    <rect x="180" y="6" width="56" height="17" rx="8.5" fill="rgba(56, 189, 248, 0.15)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+    <text x="208" y="18" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="800" font-size="8.5" fill="#38BDF8" letter-spacing="0.04em">
+      CP-SAT
+    </text>
+  </g>
+</svg>
+

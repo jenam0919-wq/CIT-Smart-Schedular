@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 56" width="100%" height="100%" fill="none" role="img" aria-label="CIT Smart Scheduler Compact Logo">
+  <defs>
+    <linearGradient id="cit-c-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#101B3C" />
+      <stop offset="50%" stop-color="#14264D" />
+      <stop offset="100%" stop-color="#0B1329" />
+    </linearGradient>
+
+    <linearGradient id="cit-c-primary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="35%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <linearGradient id="cit-c-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+
+  <!-- ================= ICON EMBLEM ================= -->
+  <g transform="translate(4, 4)">
+    <rect width="48" height="48" rx="12" fill="url(#cit-c-bg)" />
+    <rect width="46.6" height="46.6" x="0.7" y="0.7" rx="11.3" stroke="rgba(255, 255, 255, 0.18)" stroke-width="0.9" />
+
+    <!-- Mortarboard Diamond -->
+    <polygon points="24,6 40,13.5 24,21 8,13.5" fill="url(#cit-c-primary)" />
+    <polyline points="8,13.5 24,21 40,13.5" fill="none" stroke="#67E8F9" stroke-width="0.7" />
+
+    <!-- Tassel -->
+    <path d="M 24,13.5 Q 34,14 37,18 L 37.5,23" fill="none" stroke="#38BDF8" stroke-width="1" stroke-linecap="round" />
+    <circle cx="37.5" cy="23" r="0.9" fill="#67E8F9" />
+
+    <!-- Open Book Pages -->
+    <path d="M 23,24 Q 14,22.5 7,25 L 7,35 Q 15,32.5 23,34.5 Z" fill="#F8FAFC" />
+    <path d="M 25,24 Q 34,22.5 41,25 L 41,35 Q 33,32.5 25,34.5 Z" fill="#F8FAFC" />
+
+    <!-- Schedule Matrix -->
+    <rect x="10" y="26.5" width="4.5" height="2.2" rx="0.5" fill="#2563EB" />
+    <rect x="16" y="26.5" width="4.5" height="2.2" rx="0.5" fill="#06B6D4" />
+    <rect x="10" y="30.5" width="4.5" height="2.2" rx="0.5" fill="#64748B" />
+    <rect x="16" y="30.5" width="4.5" height="2.2" rx="0.5" fill="#2563EB" />
+
+    <rect x="27.5" y="26.5" width="4.5" height="2.2" rx="0.5" fill="#7C3AED" />
+    <rect x="33.5" y="26.5" width="4.5" height="2.2" rx="0.5" fill="#2563EB" />
+    <rect x="27.5" y="30.5" width="4.5" height="2.2" rx="0.5" fill="#06B6D4" />
+    <rect x="33.5" y="30.5" width="4.5" height="2.2" rx="0.5" fill="#64748B" />
+
+    <!-- Tech Horizon Arc -->
+    <path d="M 12,37.5 Q 24,40.5 36,37.5" fill="none" stroke="url(#cit-c-cyan)" stroke-width="1.1" stroke-linecap="round" />
+    <circle cx="24,39" r="1.1" fill="#67E8F9" />
+  </g>
+
+  <!-- ================= COMPACT TEXT ================= -->
+  <g transform="translate(62, 10)">
+    <text x="0" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="900" font-size="21" letter-spacing="-0.03em" fill="#2563EB">
+      CIT
+    </text>
+    <text x="44" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="14" letter-spacing="-0.02em" fill="#101B3C">
+      Scheduler
+    </text>
+    <text x="0" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="600" font-size="9" letter-spacing="0.04em" fill="#64748B">
+      CHILIKA INST OF TECH
+    </text>
+  </g>
+</svg>
+
